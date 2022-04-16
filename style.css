@@ -1,0 +1,319 @@
+/*style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-family: 'poppins', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color:white;
+
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px 5px;
+    text-decoration: underline;
+  margin: 7px 6px;
+  padding: 5px 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(173, 95, 125);
+    padding: 4px 4px;
+}
+.navbar input{
+    border: 2px solid rgb(173, 95, 125);
+    border-radius: 4px;
+    padding: 3px;
+    padding-right: 65px;
+    width: 215px;
+}
+.Logo{
+    padding-right: 5px;
+    margin: 6px 6px;
+}
+h1{
+    margin: 21px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    margin: 5px 6px;
+    padding: 0px 33px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(173, 95, 125);
+    letter-spacing: 3.5px;
+}
+
+ .slider{
+     width: 864px;
+     height: 410px;
+     margin-top: 41px;
+     margin-left: 203px;
+     margin-bottom: 46px;
+     background-color: rgb(173, 95, 125);
+     border-radius: 5px 5px;
+     background-image: url(menuicon4.jpg);
+     animation: slide 20s infinite;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+ }
+@keyframes slide{
+    25%{
+        background-image: url(girl.jpg);
+    }
+    50%{
+        background-image: url(baby\(menu\)1.jpg);
+    }
+    75%{
+        background-image: url(san\(menu\)1.jpg);
+    }
+    100%{
+        background-image: url(bs\(menu\)1.jpg);
+    }
+    150%{
+        background-image: url(menuicon4.jpg);
+    }
+}
+ 
+  /*.............categories.........*/
+  
+  .Categories{
+      margin-top: -80px;
+      margin-bottom: -70px;
+      margin-left: -50px;
+      margin-right: -50px;
+  }
+  .col-3{
+      flex-basis: 30%;
+      min-width: 250px;
+      margin-top: -40px;
+  }
+  .img-1{
+    height: 230px;
+    width: 167px;
+    padding-top: 16px;
+    padding-left: 6px;
+    padding-bottom: 30px;
+    padding-right: 1px;
+    margin-top: 56px;
+    margin-bottom: 38px;
+    margin-left: 90px;
+    margin-right: 24px;
+}
+.img-2{
+    height: 220px;
+    width: 158px;
+    padding-top: 33px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    margin-top: 37px;
+    margin-bottom: 23px;
+    margin-left: -17px;
+    margin-right: 31px;
+}
+.img-3{
+    height: 200px;
+    width: 165px;
+    padding-top: 16px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    margin-top: 52px;
+    margin-bottom: 5px;
+    margin-left: -147px;
+    margin-right: 9px;
+}
+.asfa{
+    margin-left: 6px;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 5px;
+   background-color: rgb(211, 150, 173);
+    color: black;
+    border-radius: 25px;
+    box-shadow: 00;
+    border-color: rgb(211, 150, 173);
+    cursor: pointer;
+}
+
+/*..........outfits............*/
+
+.outfits{
+    margin-top: -80px;
+    margin-bottom: -70px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.title{
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 32px;
+    margin-bottom: 26px;
+    color: rgb(173, 95, 125);
+    text-decoration: underline;
+}
+.col-4{
+    flex-basis: 30%;
+    min-width: 235px;
+    margin-top: 1px;
+    padding-top: 32px;
+
+}
+.col-4 img{
+    width: 200px;
+    margin-left: 52px;
+    margin-bottom: 86px;
+    margin-right: 234px;
+    border-radius: 22px;
+}
+.name{
+    text-align: center;
+    align-items: center;
+    text-decoration: solid black;
+    margin-top: -77px;
+    margin-bottom: -25px;
+    margin-left: -22px;
+    margin-right: 4px;
+}
+.price{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    text-decoration: solid black;
+    letter-spacing: normal;
+}
+
+/*-------Other Accessories--------*/
+
+.Other-Accessories{
+    margin-top: -80px;
+    margin-bottom: -70px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.header{
+    text-align: center;
+    margin-left: -74px;
+    margin-top: 87px;
+    margin-bottom: 22px;
+    color: rgb(173, 95, 125);
+    text-decoration: underline;
+}
+.col-5{
+    flex-basis: 30%;
+    min-width: 235px;
+    margin-top: 1px;
+    padding-top: 32px;
+}
+.col-5 img{
+    width: 200px;
+    margin-left: 94px;
+    margin-bottom: 86px;
+    margin-right: 234px;
+    border-radius: 22px;
+}
+.product{
+    text-align: center;
+    align-items: center;
+    text-decoration: solid black;
+    margin-top: -72px;
+    margin-bottom: -29px;
+    margin-left: -30px;
+    margin-right: 4px;
+}
+.money{
+    margin-top: 31px;
+    margin-bottom: -3px;
+    padding-left: 7px;
+    text-decoration: solid black;
+    letter-spacing: normal;
+}
+
+  /*-------Developers--------*/
+
+  .developers{
+      padding-top: 100px;
+  }
+.col-6{
+    height: 279px;
+    width: 268px;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 11px;
+    padding-right: 12px;
+    margin-top: 66px;
+    margin-left: 113px;
+    margin-right: 0px;
+    box-shadow: 0 0 2px rgb(151, 112, 127);
+    cursor: pointer;
+    transition: transfrom 0.5s;
+    background-color: rgb(173, 95, 125);
+    border-radius: 18px;
+}
+.col-6 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.col-6:hover{
+    transform: translateY(-30px);
+}
+.col-6 .intro{
+    font-size: 15px;
+    margin: 12px 0;
+    color: black;
+    letter-spacing: normal ;
+    text-decoration: none;
+    background-color: rgb(173, 95, 125);
+}
+.col-6 .person{
+    font-weight: 600px;
+    font-size: 20px;
+    color: rgb(53, 51, 51);
+    background-color: rgb(173, 95, 125);
+}
+
+/*-----------Brands-------------*/
+
+.brand{
+     margin: 100px;
+}
+.brand-logo1{
+    height: 79px;
+    width: 146px;
+}
+.brand-logo2{
+    height: 90px;
+    width: 164px;
+    margin-left: 314px;
+}
+.brand-logo3{
+    height: 70px;
+    margin-left: 194px;
+    width: 130px;
+}
