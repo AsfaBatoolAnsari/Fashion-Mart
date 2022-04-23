@@ -1,0 +1,267 @@
+/*Click*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'open sans', sans-serif;
+    font-family: 'poppins', sans-serif;
+
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+}
+nav{
+
+    flex: 1;
+    text-align: center;
+
+}
+nav ul {
+
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li {
+
+    display: inline-block;
+    margin: 20px 5px;
+    text-decoration: underline;
+    margin: 7px 6px;
+    padding: 5px 5px;
+
+}
+a{
+
+    text-decoration: none;
+    color: rgb(173, 95, 125);
+    padding: 4px 4px;
+
+}
+.navbar input{
+
+    border: 2px solid rgb(173, 95, 125);
+    border-radius: 4px;
+    padding: 3px;
+    padding-right: 65px;
+    width: 215px;
+
+}
+.Logo{
+
+    padding-right: 5px;
+    margin: 6px 6px;
+
+}
+/*-----------Sale------------*/
+
+.row{
+
+    height: 450px;
+    margin-top: -29px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.sale{
+
+    height: 242px;
+    width: 28%;
+    margin-left: 129px;
+    margin-top: 33px;
+
+}
+.sale-pro{
+
+    margin-left: 307px;
+    margin-top: -82px;
+    font-size: 37px;
+    text-decoration: solid rgb(173, 95, 125);
+    color: rgb(173, 95, 125);
+    text-align: center;
+    align-items: center;
+    
+}
+.para-pro{
+
+    margin-left: -231px;
+    margin-top: 42px;
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(173, 95, 125);
+    align-items: center;
+    text-align: center;
+    letter-spacing: normal;
+
+}
+.sale-pro1{
+
+    margin-left: -178px;
+    margin-top: 152px;
+    font-size: 37px;
+    text-decoration: solid rgb(173, 95, 125);
+    color: rgb(173, 95, 125);
+    text-align: center;
+    align-items: center;
+   
+}
+.sale-img{
+
+    height: 300px;
+    width: 241px;
+    padding-top: 7px;
+    margin-left: 160px;
+    margin-top: 41px;
+    margin-bottom: 0px;
+    border-radius: 21px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    transition: transfrom 0.5s;
+}
+.sale-img:hover{
+
+    transform: translateY(-50px);
+
+}
+.sale-head{
+
+    
+    text-align: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: -21px;
+    margin-left: 185px;
+    padding-bottom: 22px;
+    color: rgb(173, 95, 125);
+    text-decoration: none;
+    font-size: 21px;
+}
+.sale-in-p{
+
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 185px;
+    text-decoration: none;
+    letter-spacing: normal;
+    color: black;
+
+}
+
+/*------------Footer-------------*/
+
+.footer{
+
+    background: white;
+    font-size: 14px;
+    padding: 60px 0;
+
+}
+.download{
+
+    color: black;
+    text-decoration: solid black;
+    text-align: right;
+    margin-right: 132px;
+    margin-top: -3px;
+
+}
+.para{
+
+    color: black;
+    text-align: right;
+    margin-right: 22px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    letter-spacing: normal;
+
+}
+.app-logo{
+
+    height: 141px;
+    width: 218px;
+    margin-left: 522px;
+    padding-left: 1px;
+    cursor: pointer;
+
+}
+.footer-img{
+
+    padding-left: 267px;
+    margin-top:   441px;
+    margin-left: -246px;
+
+}
+.footer-p{
+
+    text-decoration:  underline;
+    color: rgb(173, 95, 125);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: -225px;
+    font-size: 14px;
+    padding-bottom: 27px;
+    margin-top: -36px;
+
+}
+.use{
+
+    align-items: center;
+    text-align: left;
+    margin-top: -141px;
+    margin-left: 58px;
+
+}
+.link-use{
+
+    align-items: center;
+    text-align: left;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+.follow{
+
+    align-items: center;
+    text-align: left;
+    margin-top: -53px;
+    margin-left: 62px;
+
+}
+.follow-list{
+
+    align-items: center;
+    text-align: left;
+    margin-left: 81px;
+    cursor: pointer;
+
+}
+.footer hr{
+
+    height: 3px;
+    margin: 70px;
+
+}
+.copyright{
+
+    letter-spacing: normal;
+    font-size: 13px;
+    margin-top: -69px;
+    text-decoration: none;
+    color: rgb(173, 95, 125);
+    text-align: center;
+
+}
+
