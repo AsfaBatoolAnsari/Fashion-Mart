@@ -1,0 +1,242 @@
+
+/*account.css*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(back1.jpg);
+
+}
+body{
+
+    font-family: 'open sans', sans-serif;
+    font-family: 'poppins', sans-serif;
+
+}
+.login-box{
+
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.log{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.login-box p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.login-box input{
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.login-box input[type="text"] , input[type="password"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.login-box input[type="submit"]
+{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rosybrown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login-box input[type="submit"]:hover
+{
+
+    cursor: pointer;
+    background: rosybrown;
+    color: black;
+
+}
+.login-box a{
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(165, 108, 118);
+
+}
+.login-box a:hover
+{
+
+    color: whitesmoke;
+}
+/*-------Create Account----------*/
+
+.c-a
+{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.create{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.c-a p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.c-a input{
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.c-a input[type="text"] ,input[type="email"], input[type="password"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.c-a input[type="submit"]
+{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rosybrown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.c-a input[type="submit"]:hover
+{
+
+    cursor: pointer;
+    background: rosybrown;
+    color: black;
+
+}
+
+/*-----------Forgot Password--------------*/
+
+
+.f-a
+{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.forgot{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.f-a p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.f-a input{
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.f-a input[type="email"] ,input[type="text"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.f-a input[type="submit"]
+{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rosybrown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.f-a input[type="submit"]:hover
+{
+
+    cursor: pointer;
+    background: rosybrown;
+    color: black;
+
+}
