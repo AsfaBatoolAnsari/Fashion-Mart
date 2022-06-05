@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/81b1288337.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
             <div class="container">
                 <div class="navbar">
                     <div class="Logo">
-                        <a href="#"> <img src="logo.jpg" width="120px"></a>
+                        <a href="#"> <img class="shop" src="logo.jpg" ></a>
                     </div>
                     <nav>
                         <ul id="menuitems">
@@ -26,6 +28,9 @@
                             <input type="text" name="search" id="search" placeholder="Search">
                         </ul>
                     </nav>
+
+                   <a href="cart.html"><img class="fa-solid1" src="fa1.png"></a>
+
                 </div>
                 <div class="row">
                     <div class="col-2">
@@ -40,20 +45,33 @@
 
                 <div class="Categories">
                     <div class="small-container">
-                        <div class="row" style="display: flex;flex-wrap:wrap;">
-                            <div class="col-3">
-                                <img class="img-1" src="babyd2.jpg">
+                        <div class="row-3" style="display: flex;flex-wrap:wrap;">
+                            <div class="col-3" class="category-container">
+                                <a><img class="img-1" src="babyd2.jpg"></a>
+                                <div class="catrgory-hover-inner-dev">
+                                    <div class="text"><b>Baby Category</b></div>
+                                </div>
                             </div>
 
-                            <div class="col-3">
-                                <img class="img-2" src="girl3.jpg">
+                            <div class="col-3" class="category-container">
+                               <a> <img class="img-1" src="girl3.jpg"></a>
+                               <div class="catrgory-hover-inner-dev">
+                               <div class="text"> <b>Women's Category</b></div>
                             </div>
 
-                            <div class="col-3">
-                                <img class="img-3" src="h1.jpg">
-                                <a href="click.html"><button class="asfa">Click More!</button></a>>
                             </div>
+
+                            <div class="col-3" class="category-container">
+                                <a><img class="img-1" src="h1.jpg"></a>
+                                <div class="catrgory-hover-inner-dev">
+                                    <div class="text"><b>Hair Accessory</b></div>
+                                </div>
+
+                               
+                            </div>
+                            <a href="click.html"><button class="asfa"><span>Click More</span></button></a>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -64,6 +82,16 @@
                 <div class="Outfits">
                     <div class="small-container">
                         <h1 class="title"> Outfits </h1>
+
+                        <div class="products">
+                           <b class="heading">Sort by:</b>
+                           <select class="sort-price">
+                               <option>Best Match</option>
+                               <option>Price low to high</option>
+                               <option>Price high to low</option>
+                           </select>
+                        </div>
+
                         <div class="row" style="display: flex;flex-wrap:wrap;">
 
                             <div class="col-4">
@@ -157,6 +185,13 @@
                             </div>
 
                         </div>
+
+                        <div class="box">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
                     </div>
                 </div>
 
@@ -165,6 +200,16 @@
                 <div class="Other-Accessories">
                     <div class="small-container">
                         <h1 class="header">Other Accessories </h1>
+
+                        <div class="products">
+                            <b class="heading">Sort by:</b>
+                            <select class="sort-price">
+                                <option>Best Match</option>
+                                <option>Price low to high</option>
+                                <option>Price high to low</option>
+                            </select>
+                         </div>
+
                         <div class="row" style="display: flex;flex-wrap:wrap;">
 
                             <div class="col-5">
@@ -223,15 +268,13 @@
                                 <p class="money"> $ 75.00</p>
 
                             </div>
+                        </div>
 
-                            <div class="col-5">
-                                <a href="#"> <img src="babygirlsan.jpg"></a>
-                                <h4 Class="product"> Baby Girl<br> Sandals</h4>
-
-                                <p class="money"> $ 80.00</p>
-
-                            </div>
-
+                        <div class="box">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
                         </div>
 
                     </div>
@@ -241,7 +284,7 @@
 
                 <div class="developers">
                     <div class="small-container">
-                        <div class="row" style="display: flex;flex-wrap:wrap;">
+                        <div class="row" style="display: flex;flex-wrap:wrap; justify-content: center; padding: 100px 30px; ">
                             <div class="col-6">
                                 <p class="intro">Lorem Ipsum is simply dummy text of the printing and type setting
                                     industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
@@ -272,42 +315,43 @@
 
                 <div class="brand">
                     <div class="small-container">
+                        <h4 class="power">Powered by</h4>
                         <div class="row" style="display: flex;flex-wrap:wrap;">
                             <div class="col-7">
                                 <img class="brand-logo1" src="brandlogo1.png">
                             </div>
                             <div class="col-7">
-                                <img class="brand-logo2" src="brandlogo2.jpg">
+                                <img class="brand-logo2" src="brandlogo2.png">
                             </div>
                             <div class="col-7">
-                                <img class="brand-logo3" src="brandlogo3.jpg">
+                                <img class="brand-logo3" src="brandlogo3.png">
                             </div>
 
                         </div>
                     </div>
                     <hr>
                 </div>
-                
+
 
                 <!---------Footer------------>
 
-               
+
                 <div class="footer">
                     <div class="container">
-                        <div class="row" style="display: flex;flex-wrap:wrap;">
+                        <div class="row-6" style="display: flex;flex-wrap:wrap;">
                             <hr class="h-h">
                             <div class="footer-col-1">
-                                <img class="footer-img" src="logo.jpg" >
+                                <img class="footer-img" src="logo.jpg">
                                 <p class="footer-p" face="arial narrow">Our Purpose Is Sustainably Make the Pleasure and
                                     Benefits of Fashion Sccessible to the many</p>
-                                </div>
                             </div>
+                        </div>
 
-                            <div class="footer-col-2" >
-                                <h3 class="download" face="cambria">Download our App</h3>
-                                <p class="para" face="arial narrow">Download App for Android and ios mobile phone.</p>
-                                <div class="app-logo">
-                                    <img  class="app-logo" src="applogo1.jpg">
+                        <div class="footer-col-2">
+                            <h3 class="download" face="cambria">Download our App</h3>
+                            <p class="para" face="arial narrow">Download App for Android and ios mobile phone.</p>
+                            <div class="app-logo">
+                                <img class="app-logo" src="app-logo.png">
                             </div>
                         </div>
 
@@ -323,7 +367,7 @@
                             </ul>
                         </div>
                         <br>
-                        <div class="footer-col-4" >
+                        <div class="footer-col-4">
                             <h3 class="follow">Follow Us</h3>
                             <ul class="follow-list">
                                 <li>Facebook</li>
